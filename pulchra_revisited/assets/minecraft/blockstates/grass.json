@@ -1,0 +1,28 @@
+{
+	"variants": {
+		"":[
+            { "model": "block/tall_grass_0_0"},
+            { "model": "block/tall_grass_0_1"},
+            { "model": "block/tall_grass_0_2"},
+            { "model": "block/tall_grass_0_3"},
+            { "model": "block/tall_grass_0_4"},
+            { "model": "block/tall_grass_0_5"},
+            { "model": "block/tall_grass_0_6"},
+            { "model": "block/tall_grass_0_7"},
+            { "model": "block/tall_grass_0_8"},
+            { "model": "block/tall_grass_0_9"},
+            { "model": "block/tall_grass_0_10"},
+            { "model": "block/tall_grass_22_0"},
+            { "model": "block/tall_grass_22_1"},
+            { "model": "block/tall_grass_22_2"},
+            { "model": "block/tall_grass_22_3"},
+            { "model": "block/tall_grass_22_4"},
+            { "model": "block/tall_grass_22_5"},
+            { "model": "block/tall_grass_22_6"},
+            { "model": "block/tall_grass_22_7"},
+            { "model": "block/tall_grass_22_8"},
+            { "model": "block/tall_grass_22_9"},
+            { "model": "block/tall_grass_22_10"}
+			]
+    }
+}
