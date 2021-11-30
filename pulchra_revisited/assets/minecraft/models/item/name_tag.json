@@ -1,0 +1,108 @@
+{
+	"credit": "Made by Blockstate",
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "block/birch_door",
+		"wool": "block/cauldron_inner"
+	},
+	"elements": [
+		{
+			"name": "Element",
+			"from": [11.75, 1.5, 7.5],
+			"to": [17.75, 19.5, 8.5],
+			"rotation": {"angle": -45, "axis": "z", "origin": [11.75, 19.5, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 12], "texture": "#texture"},
+				"east": {"uv": [0, 0, 0.5, 12], "texture": "#texture"},
+				"south": {"uv": [0, 0, 4, 12], "texture": "#texture"},
+				"west": {"uv": [0, 0, 0.5, 12], "texture": "#texture"},
+				"up": {"uv": [0, 0, 4, 0.5], "texture": "#texture"},
+				"down": {"uv": [4, 0.5, 0, 0], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [11.375, 18.375, 7.25],
+			"to": [12.125, 19.125, 8.75],
+			"faces": {
+				"east": {"uv": [6.5, 3.25, 7.5, 3.75], "texture": "#wool"},
+				"west": {"uv": [8.5, 3.25, 9.5, 3.75], "texture": "#wool"},
+				"up": {"uv": [10.25, 8.5, 10.75, 9.5], "texture": "#wool"},
+				"down": {"uv": [5.75, 9.5, 5.25, 8.5], "texture": "#wool"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [11.375, 18.375, 6.5],
+			"to": [12.125, 22.125, 7.25],
+			"faces": {
+				"north": {"uv": [5.25, 1.25, 5.75, 3.75], "texture": "#wool"},
+				"east": {"uv": [7.5, 1.25, 8, 3.75], "texture": "#wool"},
+				"south": {"uv": [10.25, 1.25, 10.75, 3.75], "texture": "#wool"},
+				"west": {"uv": [8, 1.25, 8.5, 3.75], "texture": "#wool"},
+				"up": {"uv": [10.25, 8, 10.75, 8.5], "texture": "#wool"},
+				"down": {"uv": [5.75, 8.5, 5.25, 8], "texture": "#wool"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [11.375, 18.375, 8.75],
+			"to": [12.125, 22.125, 9.5],
+			"faces": {
+				"north": {"uv": [5.25, 1.25, 5.75, 3.75], "texture": "#wool"},
+				"east": {"uv": [6, 1.25, 6.5, 3.75], "texture": "#wool"},
+				"south": {"uv": [10.25, 1.25, 10.75, 3.75], "texture": "#wool"},
+				"west": {"uv": [9.5, 1.25, 10, 3.75], "texture": "#wool"},
+				"up": {"uv": [10.25, 9.5, 10.75, 10], "texture": "#wool"},
+				"down": {"uv": [5.75, 10, 5.25, 9.5], "texture": "#wool"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [11.375, 21.375, 7.25],
+			"to": [12.125, 22.125, 8.75],
+			"faces": {
+				"east": {"uv": [6.5, 1.25, 7.5, 1.75], "texture": "#wool"},
+				"west": {"uv": [8.5, 1.25, 9.5, 1.75], "texture": "#wool"},
+				"up": {"uv": [10.25, 8.5, 10.75, 9.5], "texture": "#wool"},
+				"down": {"uv": [5.75, 9.5, 5.25, 8.5], "texture": "#wool"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [65, -90, 0],
+			"translation": [0, 0, -3],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [65, 90, 0],
+			"translation": [0, 0, -3],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [1, -0.5, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [1, -0.5, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -4, 0],
+			"scale": [0.95, 0.95, 0.95]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
